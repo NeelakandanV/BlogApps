@@ -1,4 +1,4 @@
-## BlogApps - A simple blog website
+## BlogApps - A simple blog website(Backend)
 
 
 ## For more details,Visit my [Postman Docs](https://documenter.getpostman.com/view/26860332/2sAYBd6nQg)
