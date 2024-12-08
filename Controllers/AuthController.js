@@ -93,7 +93,7 @@ export const ForgotPassword = async(req,res)=>{
                 Name : find_User.First_Name,
                 Email : find_User.Email
             })
-            const link = `http://localhost:5000/api/v1/users/ResetPassword/${find_User._id}/${ResetString}/${token}`
+            const link = `https://blogapps-f06u.onrender.com/api/v1/users/ResetPassword/${find_User._id}/${ResetString}/${token}`
             // for Sending mails - nodemailer
             var transporter = nodemailer.createTransport({
                 service: 'gmail',
@@ -187,7 +187,7 @@ export const VerifyUserLink = async(req,res)=>{
                         Name : find_User.First_Name,
                         Email : find_User.Email
                     })
-                    const link = `http://localhost:5000/api/v1/users/VerifyUser/${find_User._id}/${ResetString}/${token}`
+                    const link = `https://blogapps-f06u.onrender.com/api/v1/users/VerifyUser/${find_User._id}/${ResetString}/${token}`
         
                     // for Sending mails - nodemailer
                     var transporter = nodemailer.createTransport({
