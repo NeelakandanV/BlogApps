@@ -13,4 +13,29 @@ Description : This is a simple blog site where Users can create blogs,comment on
 **JWT** - For tokenized requests and role based authorizations in our website.<br/>
 **Nodemailer** - For sending mails for verification and Password Resets.
 
+# API Endpoints:-
+### GET - Server Check
+https://blogapps-f06u.onrender.com
+- For Checking the server status
+
+### POST - Create User
+https://blogapps-f06u.onrender.com/api/v1/users/Register
+- Allow user to register only if they are not registered yet.
+
+### POST - Login
+https://blogapps-f06u.onrender.com/api/v1/users/Login
+- Only registered user can able to sign in.
+
+### PUT - Forgot Password
+https://blogapps-f06u.onrender.com/api/v1/users/ForgotPassword
+- Send a Link to User registered Email to reset Password.
+
+### PUT - Reset Password
+https://blogapps-f06u.onrender.com/api/v1/users/ResetPassword/:id/:pin/:token
+- On Verifying the link,This will allow User to reset their password. (id - User Id , pin - Reset Pin , token - Token)
+
+### PUT - User Verification Link
+https://blogapps-f06u.onrender.com/api/v1/users/UserVerification
+- Send a verification link to the registered but not verified users.
+
 ## Note: Since I'm deployed the apis in render's free tier, The initial request is taking time, Please wait little longer for initial request
