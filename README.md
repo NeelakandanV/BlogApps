@@ -9,8 +9,8 @@ Description : This is a simple blog site where Users can create blogs,comment on
 - Users can get commented and liked posts
 - **Admin** only can fetch all users ,also able to delete blogs,delete comments and ban user if there any irrelevant contents.
 
-**bcryptjs** - For Password hashing,your data is safe and secure.
-**JWT** - For tokenized requests and role based authorizations in our website.
+**bcryptjs** - For Password hashing,your data is safe and secure.<br/>
+**JWT** - For tokenized requests and role based authorizations in our website.<br/>
 **Nodemailer** - For sending mails for verification and Password Resets.
 
 ## Note: Since I'm deployed the apis in render's free tier, The initial request is taking time, Please wait little longer for initial request
