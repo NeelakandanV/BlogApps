@@ -38,4 +38,64 @@ https://blogapps-f06u.onrender.com/api/v1/users/ResetPassword/:id/:pin/:token
 https://blogapps-f06u.onrender.com/api/v1/users/UserVerification
 - Send a verification link to the registered but not verified users.
 
+### GET - Verifying User
+https://blogapps-f06u.onrender.com/api/v1/users/VerifyUser/:id/:pin/:token
+
+### GET - Logout
+https://blogapps-f06u.onrender.com/api/v1/users/Logout
+
+### GET - Dashboard
+https://blogapps-f06u.onrender.com/api/v1/users/Dashboard
+
+### PUT - Update User Profile
+https://blogapps-f06u.onrender.com/api/v1/users/updateUser
+
+### GET - Get Particular User
+https://blogapps-f06u.onrender.com/api/v1/users/oneUser/:id
+
+### GET - Get all Users-Admin
+https://blogapps-f06u.onrender.com/api/v1/users/allUsers
+
+### DELETE - Delete only user account
+https://blogapps-f06u.onrender.com/api/v1/users/deleteUser
+
+### PUT - Ban User - Admin
+https://blogapps-f06u.onrender.com/api/v1/users/banUser/:id
+
+### POST - Create Blog
+https://blogapps-f06u.onrender.com/api/v1/blogs/publishBlog
+
+### GET - Get all blogs
+https://blogapps-f06u.onrender.com/api/v1/blogs/Blogs/
+
+### GET - Get One Blog
+https://blogapps-f06u.onrender.com/api/v1/blogs/Blogs/:id
+
+### PUT - Update Blog
+https://blogapps-f06u.onrender.com/api/v1/blogs/updateBlog/:id
+
+### DELETE - Delete blog
+https://blogapps-f06u.onrender.com/api/v1/blogs/deleteBlog/:id
+
+### GET - Find Blogs by Title
+https://blogapps-f06u.onrender.com/api/v1/blogs/BlogsByTitle
+
+### GET - Find Blogs by Tags
+https://blogapps-f06u.onrender.com/api/v1/blogs/BlogsByTags
+
+### GET - Find Blogs by Author
+https://blogapps-f06u.onrender.com/api/v1/blogs/BlogsByAuthor
+
+### POST - Create Comment
+https://blogapps-f06u.onrender.com/api/v1/comments/createComment/:id
+
+### POST - Like a post
+https://blogapps-f06u.onrender.com/api/v1/likes/addLike/:id
+
+### DELETE - Delete Comment
+https://blogapps-f06u.onrender.com/api/v1/comments/comment/:id
+
+### DELETE - Dislike post
+https://blogapps-f06u.onrender.com/api/v1/likes/Like/675
+
 ## Note: Since I'm deployed the apis in render's free tier, The initial request is taking time, Please wait little longer for initial request
