@@ -253,7 +253,6 @@ export const verifyUser =async(req,res)=>{
 export const Logout = async(req,res)=>{
     const token = req.cookies.token || req.headers.authorization.split(" ")[1]
     const data = await jwt.decode(token)
-    console.log("1rup")
     try{
         if(!data.Id){
             res.status(400).send({message:"User not logged in"})
